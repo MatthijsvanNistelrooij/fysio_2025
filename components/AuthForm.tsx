@@ -71,7 +71,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
 
   return (
     <div className="flex flex-col md:flex-row h-screen">
-      {/* Left - Image */}
+
       <div className="flex justify-center items-center md:w-1/2 w-full bg-gray-100 p-8">
         <Image
           src={logo_banner}
