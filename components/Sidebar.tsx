@@ -11,7 +11,7 @@ interface Props {
   email: string
 }
 
-export const Sidebar = ({ fullName, avatar, email }: Props) => {
+export const Sidebar = ({ fullName, email }: Props) => {
   const handleSignOut = () => {
     signOutUser()
   }
