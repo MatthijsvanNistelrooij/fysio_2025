@@ -31,7 +31,7 @@ export const Sidebar = ({ fullName, email }: Props) => {
           className="border hover:bg-gray-500 cursor-pointer"
           onClick={handleSignOut}
         >
-          Sign Out
+          Sign Out 
         </Button>
       </div>
     </div>
