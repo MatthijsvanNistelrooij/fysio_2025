@@ -82,7 +82,6 @@ const AuthForm = ({ type }: { type: FormType }) => {
         />
       </div>
 
-      {/* Right - Form */}
       <div className="flex justify-center items-center md:w-1/2 w-full p-6 bg-white">
         <div className="w-full max-w-md p-8 rounded-2xl shadow-md bg-white">
           <Form {...form}>
